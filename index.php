@@ -23,7 +23,7 @@ somarIdade(25,30,26,28);*/
 <div class="container">
     <?php
     //echo calcularComissao(1500, 7.65);
-    $montante = calcularMontatnte(1000,2.98,12);
+    $montante = calcularMontatnte(1000,.98,12);
     $parcela = number_format(($montante/12),2,',','.'); 
     echo '12 parcelas de R$'.$parcela.'<br/>';
     echo 'Valor total R$'. number_format(($montante),2,',','.');
