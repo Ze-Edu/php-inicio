@@ -1,16 +1,11 @@
 <?php
 //Crie um formulario que receba o valor do capital, a taxa de juros e o número de parcelas
 //Apresente o valor da parcela utilizando juro SIMPLES no mesmo arquivo php(exercícios.php)
-
-function calcularParcelas(){
-
-}
-
 ?>
 
 <?php  
 if(isset($_GET['capital'])){ 
-    $capital = $_GET['capital']; 
+    $txtcapital = $_GET['capital']; 
 } 
 ?> 
 

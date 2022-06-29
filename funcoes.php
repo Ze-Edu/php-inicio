@@ -25,10 +25,15 @@ function somarIdade(int ...$idades){
 }
 function calcularComissao($vendas, $comissao=2.89){
     return $vendas * ($comissao / 100);
-}*/
+}
 
 function calcularMontatnte($capital, $taxa = 0.98, $periodoMes = 1){
     $montante = $capital * pow((1 + ($taxa/100)),$periodoMes);
     return $montante;
+}*/
+
+function calcularPorcento($txtcapital,$txttaxa,$txtparcelas){
+    
 }
+
 ?>

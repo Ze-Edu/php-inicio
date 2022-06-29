@@ -5,8 +5,8 @@ body{
     height: 100vh;
     background-color: #ccc;
     font-family: 'open sans', 'sans-serif';
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 20px;
 }
 .container{
     display: flex;
@@ -19,6 +19,5 @@ body{
     margin: 0 auto;
 }
 input{
-    display: flex;
-    flex-direction: column;
+    margin: 20px;
 }
